@@ -1,35 +1,42 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+<!--=== Begin Footer ===-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!--=== About ===-->
+            <div class="col-sm-4 mb30-xs">
+                <img src="/assets/images/logo.png" style="width:130px" class="img-responsive mb10">
+                <p>Raleway Bootstrap 3 Template is what you need for your next project or client. With over 40 pages of just features!</p>
+                <a href="features.html" class="btn btn-primary btn-rw mt10">
+                    Buy now
+                </a>
+            </div>
+            <!--=== Contact ===-->
+            <div class="col-sm-3 mg25-xs">
+                <div class="heading-footer"><h4>Contact us</h4></div>
+                <p><span class="ion-home footer-info-icons"></span><small class="address">Las Vegas, Nevada</small></p>
+                <p><span class="ion-email footer-info-icons"></span><small class="address"><a href="mailto:{{ site.email }}">{{ site.email }}</a></small></p>
+                <p><span class="ion-ios7-telephone footer-info-icons"></span><small class="address">{{ site.phone }}</small></p>
+            </div>
+            <!--=== Social ===-->
+            <div class="col-sm-5 mg25-xs text-center">
+                <div class="heading-footer"><h4>Get Social</h4></div>
+                <span class="fa fa-twitter bordered-icon-dark bordered-icon-sm mb5 mt10"></span>
+                <span class="fa fa-apple bordered-icon-dark bordered-icon-sm mb5"></span>
+                <span class="fa fa-skype bordered-icon-dark bordered-icon-sm mb5"></span>
+                <span class="fa fa-youtube bordered-icon-dark bordered-icon-sm mb5"></span>
+                <span class="fa fa-tumblr bordered-icon-dark bordered-icon-sm mb5"></span>
+                <span class="fa fa-linkedin bordered-icon-dark bordered-icon-sm mb5"></span>
+                <span class="fa fa-git bordered-icon-dark bordered-icon-sm mb5"></span>
+            </div>
+        </div><!-- /row -->
+        <!--=== Copyright ===-->
+        <div class="row">
+            <hr class="dark-hr">
+            <div class="col-sm-12 text-center">
+                <p class="copyright mb15">&copy; 2018 Las Vegas Premium Entertainment</p>
+                <a href="#" class="scroll-top"><div class="footer-scrolltop-holder" style="float:none;display: inline-block;"><span class="ion-ios7-arrow-up footer-scrolltop"></span></div></a>
+            </div>
+        </div><!-- /row -->
+    </div><!-- /container -->
+</footer><!-- /footer -->
+<!--=== End Footer ===-->
