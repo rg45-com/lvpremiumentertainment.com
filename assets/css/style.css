@@ -775,7 +775,7 @@ ul.list-arrow-2-color li:before {
 
 .navbar-brand { 
 	height:80px;
-	padding:25px 0 25px 15px;
+	padding:5px 0 5px 15px;
 	letter-spacing:0;
 	font-weight:900;
 	color:#00B7EB;
@@ -802,8 +802,8 @@ ul.list-arrow-2-color li:before {
 .css-logo { float:left; margin-right:8px; height:19px; width:19px; border-radius:19px; background-color:#00B7EB;margin-top:5px; }
 
 .raleway-logo {
-	width:115px;
-	height:30px;
+	width:160px;
+	height:70px;
 	float:right;
 }
 

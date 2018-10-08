@@ -1,0 +1,144 @@
+<!-- Slide 2 -->
+			<li data-delay="10000"
+			data-description="Some Description"
+			data-easein="default"
+			data-easeout="default"
+			data-masterspeed="default"
+			data-param1="test"
+			data-rotate="0"
+			data-slotamount="default"
+			data-thumb="/assets/images/backgrounds/bg13.jpg"
+			data-title="Features"
+			data-transition="slideremoveleft">
+
+				<!-- MAIN IMAGE -->
+				<img alt="" 
+				data-bgfit="cover"
+				data-bgposition="center center" 
+				data-bgrepeat="no-repeat"
+				data-no-retina="" 
+				height="800" 
+				src="/assets/images/backgrounds/bg13.jpg" 
+				style="background-color:#000;"
+				width="1732">
+
+				<div class="tp-caption" 
+				data-x="320"
+				data-y="105"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="y:10px;opacity:0;s:700;e:Power3.easeOut;"
+				data-transform_out="y:10px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:35px;font-family:'Raleway' sans-serif;font-weight:200;border:2px solid #fff;padding:0 17px;">
+				<strong>Talented, Experienced, Professional Musicians</strong> <br/>
+				for all your live entertainment needs.
+				</div>
+
+				<div class="tp-caption background-mainsub" 
+				data-x="320"
+				data-y="195"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:100px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:100px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:27px;font-family:'FontAwesome' sans-serif;line-height:50px;text-align:center;padding-left:12px;padding-right:12px;border-radius:50%">
+				
+					<span class="fa fa-check"></span>
+
+				</div>
+
+				<div class="tp-caption" 
+				data-x="390"
+				data-y="200"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:130px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:130px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:24px;font-family:'Open Sans' sans-serif;font-weight:300;">
+				Weddings
+				</div>
+
+				<div class="tp-caption background-mainsub" 
+				data-x="320"
+				data-y="260"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:160px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:160px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:27px;font-family:'FontAwesome' sans-serif;line-height:50px;text-align:center;padding-left:12px;padding-right:12px;border-radius:50%">
+				
+					<span class="fa fa-check"></span>
+
+				</div>
+
+				<div class="tp-caption" 
+				data-x="390"
+				data-y="265"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:190px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:190px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:24px;font-family:'Open Sans' sans-serif;font-weight:300;">
+				Private Parties
+				</div>
+
+				<div class="tp-caption background-mainsub" 
+				data-x="320"
+				data-y="324"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:220px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:220px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:27px;font-family:'FontAwesome' sans-serif;line-height:50px;text-align:center;padding-left:12px;padding-right:12px;border-radius:50%">
+				
+					<span class="fa fa-check"></span>
+
+				</div>
+
+				<div class="tp-caption" 
+				data-x="390"
+				data-y="329"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="x:260px;opacity:0;s:1200;e:Power3.easeOut;"
+				data-transform_out="y:260px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:24px;font-family:'Open Sans' sans-serif;font-weight:300;">
+				Corporate Events
+				</div>
+
+				<div class="tp-caption" 
+				data-x="325"
+				data-y="395"
+				data-speed="600"
+				data-start="1200"
+				data-end="9400"
+				data-endspeed="600"
+				data-transform_idle="o:1;"
+				data-transform_in="y:70px;opacity:0;s:1000;e:Power3.easeOut;"
+				data-transform_out="y:70px;opacity:0;s:500;e:Power2.easeInOut;"
+				style="color:#fff;font-size:17px;font-family:'Open Sans' sans-serif;font-weight:300;">
+				<strong>and much more...</strong>
+				</div>
+
+			</li>
