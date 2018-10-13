@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact/
+form_validation: 1
 ---
 
 <!-- Begin Map -->
@@ -21,18 +22,71 @@ permalink: /contact/
 	<!-- Begin Form -->
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-			<div class="heading mb20"><h4><span class="ion-android-mail mr15"></span>Send us a Message</h4></div>
-			<p class="mb20">Aenean sodales erat sit amet quam tincidunt tincidunt. Sed aliquet <b>mauris sit amet ullamcorper</b> sodales.</p>
-			<form role="form">
-                  <div class="form-group">
-                      <input type="email" placeholder="Name" class="form-control" id="InputName">
+			<div class="heading mb20"><h4><span class="ion-android-mail mr15"></span>Contact us for a quote</h4></div>
+			<p class="mb20">When you're ready for more information, fill out the information below, and we'll get back to you within 24 hours of receiving
+your request.</p>
+			<form role="form" name="contact" method="POST" netlify-honeypot="bot-field" netlify data-toggle="validator" action="/thank-you/">
+  			  <p class="hidden">
+            <label>Don’t fill this out if you're human - It's a trap! <input name="bot-field" /></label>
+          </p>
+                  <div class="form-group has-feedback">
+                    <label for="InputName" class="control-label">Full Name</label>
+                    <input type="text" placeholder="Full Name" class="form-control" id="InputName" required
+                      data-error="Please enter your full name.">
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
                   </div>
-                  <div class="form-group">
-                      <input type="email" placeholder="Email Address" class="form-control" id="InputEmail1">
+                  
+                  <div class="form-group has-feedback">
+                    <label for="InputPhone" class="control-label">Phone Number</label>
+                    <input type="tel" placeholder="Phone Number" class="form-control" id="InputPhone" required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
                   </div>
-                  <div class="form-group">
-                      <textarea class="form-control" placeholder="Message" id="InputMessage" rows="7"></textarea>
+                  
+                  <div class="form-group has-feedback">
+                    <label for="inputEmail" class="control-label">Email Address</label>
+                    <input type="email" placeholder="Email Address" class="form-control" id="InputEmail" required
+                      data-error="Please enter your email address.">
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
                   </div>
+                  
+                  <div class="form-group">
+                    <label for="InputEventDate" class="control-label">Event Date</label>
+                    <input type="date" placeholder="MM/DD/YYYY" class="form-control" id="InputEventDate">
+                  </div>
+                  
+                  <div class="form-group has-feedback">
+                    <label for="InputEventType" class="control-label">Type of Event</label><br/>
+                    <select id="InputEventType" name="InputEventType" required
+                      data-error="Please select your event type.">
+                      <option value="">-- Please select --</option>
+                      <option value="Wedding">Wedding</option>
+                      <option value="Private_Party">Private Party</option>
+                      <option value="Corporate_Event">Corporate Event</option>
+                      <option value="Other">Other - Please Describe below</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="InputEventLocation" class="control-label">Event Location</label>
+                    <input type="text" placeholder="Event Location" class="form-control" id="InputEventLocation">
+                  </div>
+                  
+                  <div class="form-group has-feedback">
+                    <label for="InputGuestCount" class="control-label">Estimated Guest Count</label>
+                    <input type="number" class="form-control" id="InputGuestCount">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="InputEventDescription" class="control-label">Event Description</label>
+                    <textarea class="form-control" placeholder="Event Description" id="InputEventDescription" rows="7"></textarea>
+                  </div>
+                  
+                  <div data-netlify-recaptcha></div>
+                  
                   <button type="submit" class="btn btn-rw btn-primary">Submit</button>
               </form>
 		</div>
