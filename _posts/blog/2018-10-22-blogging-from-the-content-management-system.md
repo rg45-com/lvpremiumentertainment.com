@@ -3,7 +3,7 @@ layout: post
 category: blog
 title: Blogging from the Content Management System
 date: 2018-10-23T06:10:01.026Z
-author: John Summers
+writer: John Summers
 image: /assets/images/reasons-to-use-a-content-management-system.png
 image_caption: An image caption was added here.
 ---
