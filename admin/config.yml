@@ -18,8 +18,8 @@ collections:
       - {label: "Category", name: "category", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string", pattern: [".{10,}", "Should have more than 10 characters"]}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: "Author"
-        name: "author"
+      - label: "Writer"
+        name: "writer"
         widget: "select"
         options: ["John Summers"]
       - {label: "Featured Image", name: "image", widget: "image", required: false}
