@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: rg45-com/tappsnevada.org # Path to your Github repository
+  repo: rg45-com/lvpremiumentertainment.com # Path to your Github repository
   branch: master # Branch to update
   
 publish_mode: editorial_workflow
