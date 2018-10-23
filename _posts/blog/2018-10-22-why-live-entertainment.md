@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 category: blog
 title: Why Live Entertainment?
 date: 2018-10-23T05:47:21.190Z
