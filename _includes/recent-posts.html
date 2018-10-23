@@ -1,0 +1,10 @@
+<div class="blog-heading"><h3>Recent Posts</h3></div>
+<ul class="list-unstyled latest-posts">
+  {% for post in site.posts limit: 4 %}
+    {% if post.title == page.title %}
+      {% continue %}
+    {% else %}
+       {% include recent-post-li.html %}
+    {% endif %}
+  {% endfor %}
+</ul>

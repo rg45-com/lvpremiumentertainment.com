@@ -157,7 +157,9 @@
   	    }); 
   	}); 
   	</script>
-	
+	{%- if layout.identity_bodyEnd -%}
+    {{ layout.identity_bodyEnd }}
+  {%- endif -%}
   </body>
 
 </html>

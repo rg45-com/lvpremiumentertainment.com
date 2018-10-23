@@ -1,4 +1,19 @@
 ---
+identity_bodyEnd: >
+  <!-- Redirect to CMS if applicable -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+identity_head: >
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 layout: default
 ---			
 
@@ -116,8 +131,8 @@ layout: default
   			data-param1="test"
   			data-rotate="0"
   			data-slotamount="default"
-  			data-thumb="/assets/images/backgrounds/bg13.jpg"
-  			data-title="Features"
+  			data-thumb="/assets/images/backgrounds/home-bg2.jpg"
+  			data-title="Musicians"
   			data-transition="slideremoveleft"
   		>
 
