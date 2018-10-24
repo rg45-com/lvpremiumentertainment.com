@@ -23,7 +23,7 @@ url: "https://lvpremiumentertainment.com" # the base hostname & protocol for you
 twitter_handle: LvPremium
 instagram_handle: lvpremiumentertainment
 facebook_handle: lvpremiumentertainment
-#google_analytics: "UA-126723502-1"
+google_analytics: "UA-126723502-1"
 
 # Build settings
 markdown: kramdown
