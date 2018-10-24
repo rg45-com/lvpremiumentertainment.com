@@ -13,18 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Las Vegas Premium Entertainment"
+title: "Live Music - Weddings, Private Parties, Corporate Events | Las Vegas Premium Entertainment"
 email: info@lvpremiumentertainment.com
 phone: "702-763-2380"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Las Vegas' premier source for live entertainment for Weddings, Private Parties, Corporate events.  Talented, experienced, professional Artists for all your entertainment needs.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lvpremiumentertainment.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_handle: LvPremium
 instagram_handle: lvpremiumentertainment
 facebook_handle: lvpremiumentertainment
+#google_analytics: "UA-126723502-1"
 
 # Build settings
 markdown: kramdown

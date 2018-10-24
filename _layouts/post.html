@@ -9,7 +9,7 @@ layout: default
 	  
 	   	<div class="col-sm-8">
 				<div class="blog-post">              	
-				  <h2>{{ page.title }}</h2>
+				  <h1>{{ page.title }}</h1>
 				  {% if page.image %} 
   				  <img class="img-responsive" src="{{ page.image }}" alt="{{ page.image_caption }}" />
             {% if page.image_caption %} 
@@ -33,13 +33,7 @@ layout: default
 	        
 	        <!-- Sidebar -->
 	        <div class="col-sm-4">
-	        	<div class="content-box content-box-bordered mt30-xs mb30">
-			        <span class="ion-beaker bordered-icon-color bordered-icon-sm"></span>
-			        <h4 class="pt15">Our Blog</h4>
-			        <p class="no-margin">Lorem ipsum dolor sit amet, consec tetur adipiscing elit.
-  			        Integer a elit turpis. Phasellus non varius mi. Nullam elementum tincidunt massa,
-  			        a pulvinar leo ultricies ut.</p>
-			      </div>
+	        	{% include right-col-aside.html %}
 	       
         	  {% include recent-posts.html %}
           </div><!-- /column -->
