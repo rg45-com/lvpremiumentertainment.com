@@ -113,28 +113,31 @@ $(document).ready(function() {
 });
 
 //owl carousel thumbnail caption slider
-$('#owl-carousel-product').owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: true,
-    dots: true,
-    navText: ["<span><</span>", "<span>></span>"],
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
-        }
-    }
-})
+$(document).ready(function(){
+  $('#owl-carousel-product').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      dots: true,
+      navText: ["<span><</span>", "<span>></span>"],
+      responsive: {
+          0: {
+              items: 1
+          },
+          600: {
+              items: 1
+          },
+          1000: {
+              items: 1
+          }
+      }
+  })
+});
 
 //owl carousel thumbnail caption slider
-$('#owl-carousel-thumb').owlCarousel({
-    loop: true,
+$(document).ready(function(){
+  $('#owl-carousel-thumb').owlCarousel({
+    loop: false,
     margin: 30,
     nav: true,
     dots: false,
@@ -151,7 +154,8 @@ $('#owl-carousel-thumb').owlCarousel({
             items: 4
         }
     }
-})
+  })
+});
 
 //carousel animation fix
 function animateElement(obj, anim_) {
