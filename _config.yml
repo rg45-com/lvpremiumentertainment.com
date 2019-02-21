@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Live Music - Weddings, Private Parties, Corporate Events | Las Vegas Premium Entertainment"
+title: "Live Music - Weddings, Private Parties, Corporate Events | Las Vegas"
 email: info@lvpremiumentertainment.com
 phone: "702-763-2380"
 description: >- # this means to ignore newlines until "baseurl:"
