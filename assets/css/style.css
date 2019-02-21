@@ -327,9 +327,13 @@ ul.list-arrow-2-color li:before {
 }
 
 .btn {
-	border-radius:2px;
+	border-radius:4px;
 }
 
+.btn-book {
+  padding: 15px;
+  font-size: 26px;
+}
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline:none;
 }
