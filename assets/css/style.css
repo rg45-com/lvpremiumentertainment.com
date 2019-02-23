@@ -334,6 +334,26 @@ ul.list-arrow-2-color li:before {
   padding: 15px;
   font-size: 26px;
 }
+
+.btn-book-now {
+  background-color: #e99e22 !important;
+  padding: 6px 12px !important;
+  color: white !important;
+  margin-top:23px !important;
+  -webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.btn-book-now:hover, .btn-book-now:focus {
+  background-color:#ce8613 !important;
+  -webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
 .btn:focus, .btn:active:focus, .btn.active:focus {
 	outline:none;
 }
