@@ -784,7 +784,7 @@ ul.list-arrow-2-color li:before {
 
 .navbar-brand { 
 	height:80px;
-	padding:5px 0 5px 15px;
+	padding:5px 0 5px 0px;
 	letter-spacing:0;
 	font-weight:900;
 	color:#00B7EB;
